@@ -1,0 +1,230 @@
+.shop {
+  width: 1300px;
+  display: flex;
+  margin: 50px auto;
+  margin-bottom: 0;
+  justify-content: space-evenly;
+}
+
+.head {
+  background: url('../icons/bg.jpg');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-clip: content-box;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.head h1 {
+  font-weight: 900;
+  font-size: 3rem;
+}
+
+.head p {
+  font-weight: 500;
+  font-size: 1.2rem;
+}
+
+/* LEFT COL */
+
+.left-col {
+  width: 150px;
+}
+
+.left-col h2 {
+  font-size: 1.2rem;
+  font-weight: 500;
+  margin-top: 50px;
+}
+
+.left-col div:first-child h2 {
+  margin-top: 20px;
+}
+
+.left-col p {
+  border-radius: 20px;
+  padding: 1px 3px;
+  line-height: 1rem;
+  font-size: 0.8rem;
+  cursor: pointer;
+  font-weight: 400;
+  color: gray;
+  width: fit-content;
+}
+
+.left-col p:hover {
+  background-color: #dbdbdb;
+}
+
+/* RIGHT COL */
+
+.right-col {
+  width: 1050px;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* CARD */
+
+.card {
+  background-color: white;
+  width: 300px;
+  height: 560px;
+  transition-duration: 0.4s;
+  overflow: hidden;
+  margin: 0px 20px;
+  margin-bottom: 40px;
+}
+
+.card:hover {
+  background-color: rgb(255, 235, 227);
+  transition-duration: 0.4s;
+}
+
+.card > div {
+  overflow: hidden;
+  animation-timing-function: ease-in-out;
+  animation-name: loading;
+  animation-duration: 1s;
+  animation-iteration-count: infinite;
+}
+
+.card > div > div {
+  height: 460px;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  transition-duration: 0.4s;
+  overflow: hidden;
+}
+
+.card > div > div:hover {
+  transform: scale(1.2);
+  transition-duration: 0.4s;
+}
+
+.card h3 {
+  font-weight: 200;
+  margin: 15px 10px;
+  text-decoration: none;
+  color: black;
+  font-size: 1.2rem;
+  margin-bottom: 5px;
+}
+
+.card > p {
+  margin: 10px;
+  font-size: 1.1rem;
+  margin-bottom: 20px;
+}
+
+.card button {
+  position: absolute;
+  border: none;
+  background-color: black;
+  color: white;
+  width: 100px;
+  height: 40px;
+  cursor: pointer;
+  transition-duration: 0.4s;
+  opacity: 0.5;
+  z-index: 1000;
+  outline: none;
+  font-size: 0.7rem;
+}
+
+.card button:hover {
+  background-color: rgb(255, 186, 58);
+  transition-duration: 0.4s;
+  opacity: 1;
+}
+
+@keyframes loading {
+  0% {
+    background-color: white;
+  }
+  100% {
+    background-color: rgb(230, 230, 230);
+  }
+}
+
+@media (max-width: 1300px) {
+  .shop {
+    width: 1000px;
+  }
+
+  .left-col {
+    width: 150px;
+  }
+  .right-col {
+    width: 850px;
+  }
+
+  .card {
+    width: 250px;
+    margin: 10px 15px;
+  }
+}
+
+@media (max-width: 1050px) {
+  .shop {
+    width: 800px;
+  }
+
+  .left-col {
+    width: 150px;
+  }
+
+  .right-col {
+    width: 650px;
+  }
+
+  .card {
+    width: 275;
+    margin: 10px 25px;
+  }
+}
+
+@media (max-width: 850px) {
+  .shop {
+    width: 100vw;
+  }
+
+  .left-col {
+    display: none;
+  }
+
+  .right-col {
+    width: 100vw;
+  }
+
+  .card {
+    width: 44vw;
+    margin: 20px 3vw;
+  }
+}
+
+@media (max-width: 600px) {
+  .card {
+    width: 90vw;
+    height: 90vh;
+    margin: 5vw;
+  }
+
+  .card > div > div {
+    height: 75vh;
+  }
+
+  .card h3 {
+    font-size: 2.3rem;
+  }
+
+  .card p {
+    font-size: 1.3rem;
+  }
+}

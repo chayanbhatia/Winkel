@@ -1,0 +1,41 @@
+{
+  "files": {
+    "main.css": "/static/css/main.1363245c.chunk.css",
+    "main.js": "/static/js/main.01756b08.chunk.js",
+    "main.js.map": "/static/js/main.01756b08.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.65012ed0.js",
+    "runtime-main.js.map": "/static/js/runtime-main.65012ed0.js.map",
+    "static/css/2.eb43dee1.chunk.css": "/static/css/2.eb43dee1.chunk.css",
+    "static/js/2.42639825.chunk.js": "/static/js/2.42639825.chunk.js",
+    "static/js/2.42639825.chunk.js.map": "/static/js/2.42639825.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.491716191194f5def403ed72e8d1579d.js": "/precache-manifest.491716191194f5def403ed72e8d1579d.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/2.eb43dee1.chunk.css.map": "/static/css/2.eb43dee1.chunk.css.map",
+    "static/css/main.1363245c.chunk.css.map": "/static/css/main.1363245c.chunk.css.map",
+    "static/js/2.42639825.chunk.js.LICENSE.txt": "/static/js/2.42639825.chunk.js.LICENSE.txt",
+    "static/media/shop.module.css": "/static/media/bg.1c20997e.jpg",
+    "static/media/cart.svg": "/static/media/cart.00bf528e.svg",
+    "static/media/home.module.css": "/static/media/counter.ae530647.jpg",
+    "static/media/delivery.svg": "/static/media/delivery.48e00f9d.svg",
+    "static/media/facebook.svg": "/static/media/facebook.bb1ed861.svg",
+    "static/media/instagram.svg": "/static/media/instagram.3a7cd79f.svg",
+    "static/media/login.module.css": "/static/media/login1.ffbbe68f.jpg",
+    "static/media/man.jpg": "/static/media/man.31b0ed7c.jpg",
+    "static/media/new-woman.jpg": "/static/media/new-woman.f92c48d3.jpg",
+    "static/media/pageSelected.svg": "/static/media/pageSelected.75a990cb.svg",
+    "static/media/pageUnselected.svg": "/static/media/pageUnselected.2a64f364.svg",
+    "static/media/phone.svg": "/static/media/phone.1e3a7511.svg",
+    "static/media/send.svg": "/static/media/send.a7e0c020.svg",
+    "static/media/shipment.jpg": "/static/media/shipment.b9160c32.jpg",
+    "static/media/twitter.svg": "/static/media/twitter.3033b716.svg",
+    "static/media/woman.jpg": "/static/media/woman.19695892.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.65012ed0.js",
+    "static/css/2.eb43dee1.chunk.css",
+    "static/js/2.42639825.chunk.js",
+    "static/css/main.1363245c.chunk.css",
+    "static/js/main.01756b08.chunk.js"
+  ]
+}

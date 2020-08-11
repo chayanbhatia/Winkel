@@ -1,0 +1,142 @@
+.top-row {
+  background-color: black;
+  display: flex;
+  justify-content: space-around;
+  color: white;
+  font-weight: 600;
+  padding: 0px 30px;
+}
+
+.top-row img {
+  width: 0.6rem;
+  margin: 0 5px;
+  vertical-align: middle;
+}
+
+.top-row p {
+  margin: 0 0;
+  font-size: 0.7rem;
+}
+
+.bottom-row {
+  width: 70vw;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-items {
+  display: flex;
+  font-size: 0.8rem;
+  font-weight: 550;
+  align-items: center;
+}
+.nav-items > div {
+  margin: 0 20px;
+  cursor: pointer;
+}
+
+.nav-items img {
+  width: 0.8rem;
+  margin: 5px 5px;
+  vertical-align: middle;
+}
+
+.bottom-row h2 {
+  font-weight: bolder;
+}
+
+.log {
+  text-decoration: none;
+  color: white;
+  border-radius: 20px;
+  background-color: orange;
+  padding: 10px 20px;
+  transition-duration: 0.2s;
+}
+
+.log:hover {
+  background-color: black;
+  transition-duration: 0.2s;
+}
+
+.overlay {
+  right: 0;
+  bottom: 0;
+  width: 100vw;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: rgba(77, 77, 77, 0.568);
+  z-index: 100;
+}
+
+.hamburger {
+  display: none;
+}
+
+.hamburger > hr {
+  width: 20px;
+  border: none;
+  background-color: black;
+  height: 2px;
+}
+
+.drawer {
+  position: fixed;
+  top: 0;
+  right: 0;
+  display: none;
+  height: 100%;
+  justify-content: center;
+  flex-direction: column;
+  background-color: white;
+  z-index: 101;
+  width: 300px;
+  align-items: center;
+  animation: fadeIn 0.4s;
+}
+
+.drawer > div {
+  margin: 30px 0;
+}
+
+.link {
+  text-decoration: none;
+  color: black;
+  font-weight: 400;
+  margin: 0 30px;
+  font-size: 0.9rem;
+}
+
+@media (max-width: 900px) {
+  .top-row {
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+  }
+
+  .top-row > p {
+    width: fit-content;
+    margin: 0 auto;
+  }
+  .nav-items {
+    display: none;
+  }
+  .hamburger {
+    display: block;
+  }
+  .drawer {
+    display: flex;
+  }
+}
+
+@keyframes fadeIn {
+  0% {
+    right: -300px;
+  }
+  100% {
+    right: 0;
+  }
+}
